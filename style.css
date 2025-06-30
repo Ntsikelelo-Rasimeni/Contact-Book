@@ -1,0 +1,134 @@
+/*----------General body styling----------*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+    margin: 20px;
+    padding: 0;
+}
+
+/*----------Form styling----------*/
+form {
+    background-color: #ffffff;
+    padding: 22px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-group {
+    text-align: center;
+}
+
+
+/*----------Table styling for index.html----------*/
+#table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #000000;
+}
+
+#table td {
+    padding: 10px;
+    border-bottom: 1px solid #302f2f;
+    vertical-align: middle;
+}
+
+#table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+#table h5 {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/*----------Buttons on index.html----------*/
+#refresh, #addContact, #homeLink, #editContact, #deleteContact {
+    display: inline-block;
+    margin:5px;
+    vertical-align: te;
+}
+
+/*----------Avatar image----------*/
+#avatarImage {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#avatarImage img {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+#avatarImage img:hover {
+    transform: scale(1.05);
+}
+
+/*----------Search Bar----------*/
+.container{
+    width: 10px;
+    margin: auto;
+}
+
+input.searchBar {
+	margin: 0px 0px;
+	background-color: #2a2a2a;
+	border-bottom: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 250px;
+	height: 15px;
+}
+
+h2{
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+
+
